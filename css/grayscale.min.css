@@ -28,7 +28,8 @@ video {
 } */
 
 .bgc {
-    background: rgba(38, 38, 38, .7);
+    /* background: rgba(38, 38, 38, .7); */
+    background: #4d5054
 }
 
 
