@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        div {
+            background-color: lightcyan;
+            margin-top: 1em;
+        }
+        
+        #main {
+            height: 500px;
+        }
+        
+        @media(min-width:1000px) {
+            #main,
+            #sidebar {
+                height: 200px;
+                display: inline-block;
+            }
+            #main {
+                width: 40%
+            }
+            #sidebar {
+                width: 50%;
+            }
+            #ads {
+                width: 50%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    my body
+    <div id="header" style="background-color:lightgray">
+        header
+    </div>
+
+    <div id="ads" style="background-image:url('https://unsplash.it/1900/1080?image=1081');" </div>
+
+        <div id="main" style="background-color:lightcoral">main</div>
+
+        <div id="sidebar" style="background-color:lightgreen">sidebar</div>
+
+        <div id="footer" style="background-color:lightgoldenrodyellow">footer</div>
+</body>
+
+</html>
