@@ -4417,7 +4417,7 @@ option = {
                 borderColor: '#262626'
             },
             emphasis: {
-                areaColor: '#000'
+                areaColor: '#3f3f3f'
             }
         }
     },
