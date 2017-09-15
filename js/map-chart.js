@@ -4383,7 +4383,7 @@ var convertData = function(data) {
 };
 
 option = {
-    backgroundColor: 'rgba(38, 38, 38, .5)',
+    backgroundColor: 'rgba(77,80,84, .5)',
     title: {
         text: '进口废物加工利用企业环境违法情况',
         left: 'center',

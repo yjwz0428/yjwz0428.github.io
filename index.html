@@ -113,9 +113,10 @@
                 </p>
                 <img src="img/60-02.png" class="img-fluid">
                 <img class="x" src="img/dark.png">
+                <div id="main1" style="height:500px"></div>
             </div>
         </div>
-        <div id="main1" style="height:500px"></div>
+        <!-- <div id="main1" style="height:500px"></div> -->
 
 
     </section>
@@ -216,8 +217,8 @@
     <script type="text/javascript">
         var wid = $(window).width();
         console.log(222);
-        var main1 = "<img class='wid600' src='1.jpg' style='margin-top:15%;width:100%'>"
-        if (wid < 600) {
+        var main1 = "<img class='wid600' src='2.jpg' style='margin-top:15%;width:100%'>"
+        if (wid < 768) {
             $('#main1').html(main1);
         }
     </script>
